@@ -22,6 +22,7 @@ const CartSummary = ({cart}) => {
         <ul>
           {cartItems.map((item) => (
             <li key={item.id}>
+              
               {item.name} x {item.quantity} = ${item.price * item.quantity}
             </li>
           ))}

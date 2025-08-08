@@ -4,7 +4,7 @@ const Recommend = ({ recommendation }) => {
   return (
     <div className="recommend-container">
       <h3 className="recommend-title">Recommended For You</h3>
-      //ter
+     
       {!recommendation ? (
         <p className="recommend-empty">No recommendations yet. Add something to your cart!</p>
       ) : (
